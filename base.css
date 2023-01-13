@@ -1,6 +1,14 @@
-html, body {
+html, body, a {
     margin: 0;
+    text-decoration: none;
+    
+    
+
 }
+li {
+    list-style-type: none;
+}
+
 body {
     background-color: #f1f1f1;
     display: flex;
@@ -17,14 +25,38 @@ body {
     display: flex;
     flex-flow: column;
     width: 85%;
+    
 }
 .menu {
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color:rgba(75, 73, 73, 0.945);
+    padding: 20px;  
 }
+
+.menu li a {
+    color: white;
+    display: block;
+    border: 1px solid white;
+    padding: 30px;
+}
+.menu li a:hover {
+    background-color:rgba(75, 73, 73, 0.945);
+
+}
+table {
+    border: 1px solid black;
+}
+thead {
+    background-color: gray;
+}
+
+
+
+   
+
 .header {
     background-color: rgb(5, 108, 108);
+    background-image: url("https://a-static.mlcdn.com.br/800x560/papel-de-parede-caes-dogs-patinhas-com-fundo-verde-vinil-seller-mix/mixshow/7306689288/cef62b42144801e1fa4f754161970c16.jpg");
     min-height: 150px;
 }
 .content {
@@ -33,6 +65,39 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color:#60C1B7;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+
 }
+.footer a {
+    color: black;
+    align-items: center;
+    padding: 20px;
+
+
+}
+input {
+ width: 100px;
+ margin: 5px;
+
+}
+button {
+   padding: 15px;
+   margin: 10px;
+}
+.btn1 {
+    background-color: green;
+
+}
+.btn1:hover {
+    background-color: rgb(9, 170, 9);
+}
+.btn2 {
+    background-color: darkred;
+}
+.btn2:hover {
+    background-color:red;
+}
+  
